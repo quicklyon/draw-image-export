@@ -1,0 +1,17 @@
+{
+    "Name": "draw-image-export",
+    "Version": "1.0.1",
+    "Home": "https://github.com/jgraph/draw-image-export2",
+    "Maintainer": "zhouyueqiu zhouyueqiu@easycorp.ltd",
+    "GitUrl": "https://github.com/jgraph/draw-image-export2",
+    "DockerfileUrl": "https://github.com/quicklyon/draw-image-export-docker",
+    "DockerfileRepoBranch":"",
+    "InstallDocUrl": "https://www.qucheng.com/app-install/install-draw-image-export-<number>.html",
+    "Docker": {
+        "Name": "draw-image-export",
+        "OS": "debian-11",
+        "ImageOS": "easysoft/debian:11",
+        "Repo": "https://hub.docker.com/r/easysoft/draw-image-export",
+        "TagUrl": "https://hub.docker.com/r/easysoft/draw-image-export/tags/"
+    }
+}

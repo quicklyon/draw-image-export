@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# shellcheck disable=SC1091
+
+[ -n "${DEBUG:+1}" ] && set -x
+
+cd /apps/draw-image-export || exit 1
+exec npm start
